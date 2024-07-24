@@ -7,17 +7,15 @@ function Header() {
       <View style= {styles.container}>
       <View >
          <Text style={styles.heading}>Calendar</Text>
-         
-
       </View>
         <ScrollView style={styles.sectionTitle} horizontal={true}>
-          <Text style={styles.day}>Son </Text>
-          <Text style={styles.day}>Mon </Text>
-          <Text style={styles.day}>Tue </Text>
-          <Text style={styles.day}>Wed </Text>
-          <Text style={styles.day}>Thu </Text>
-          <Text style={styles.day}>Fri </Text>
-          <Text style={styles.day}>Sat </Text>
+          <Text style={styles.day}>S </Text>
+          <Text style={styles.day}>M </Text>
+          <Text style={styles.day}>T </Text>
+          <Text style={styles.day}>W </Text>
+          <Text style={styles.day}>T </Text>
+          <Text style={styles.day}>F </Text>
+          <Text style={styles.day}>S </Text>
         </ScrollView>
       </View>
     </SafeAreaView>
@@ -29,24 +27,22 @@ export default Header;
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'column',
-    backgroundColor: '#2A2B2B',
+    backgroundColor: '#696969',
     justifyContent: 'center',
     alignItems: 'center',
-
-
   },
 
   heading: {
-     padding: 20,
+     padding: 18,
     fontSize: 22,
-    color: '#E72D2D',
+    color: '#FF0000',
     // display: 'flex',
     fontWeight: '600',
      alignItems: 'center',
   },
   sectionTitle: {
     flexDirection: 'row',
-    paddingLeft: 21,
+    paddingLeft: 12,
   },
   day: {
     fontSize: 14,
